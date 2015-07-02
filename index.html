@@ -2,28 +2,29 @@
 layout: default
 ---
 
-<section class="main-content">
+<div class="row">
+  <div class="large-12 columns">
+    <center><h1 class="title">{{ site.title }}</h1></center>
+  </div>
+</div>
 
-    {% for post in paginator.posts %}
-        <article class="module color-3">
-                <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-                <span class="category">{{ post.categories | array_to_sentence_string }}</span>
-                <p>{{ post.excerpt }}</p>
-        </article>
-    {% endfor %}
+<div class="row">
+  <div class="large-12 columns">
+    <center><h3>{{ site.description }}</h3></center>
+    <br/>
+  </div>
+</div>
 
-    <div class="module pagination color-3">
-        {% if paginator.previous_page %}
-            <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous">Previous</a>
-        {% endif %}
+{% for post in site.posts %}
 
-        <span class="page_number">&mdash; {{ paginator.page }} of {{ paginator.total_pages }} &mdash;</span>
+<div class="row b">
+  <div class="large-12 columns">
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  </div>
+</div>
 
-        {% if paginator.next_page %}
-            <a href="{{ site.url }}{{ paginator.next_page_path }}" class="next">Next</a>
-        {% endif %}
-    </div>
-
-</section>
-
+{% endfor %}
 

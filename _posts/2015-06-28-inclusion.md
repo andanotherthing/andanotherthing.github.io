@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Inclusion"
+title:  Inclusion
 date:   2015-06-28 08:00:00
 categories: culture inclusion diversity
 author: Kevin Dickerson
 date: 2015/06/28 6:00 pm
 ---
+
+*[This post originally appeared on the Chef blog on June 23, 2015.][chefblog]*
 
 It was early April, and I arrived in Santa Clara in the days preceding ChefConf 2015. Levi’s Stadium and the surrounding area was filled with 125,000 wrestling fans. There were seven matches on the main card. The Undertaker contested his first match in almost a year. The Levi’s Stadium attendance record was smashed by six thousand people.
 
@@ -39,9 +41,7 @@ Imagine how it would feel if everyone around you felt emboldened, integrated, no
 
 We have a well-documented and well-studied problem in our industry regarding diversity. What is our culture? Are we diverse? Are we inclusive? It’s not up to us to decide that. It’s up to us to show that.
 
-*[This post originally appeared on the Chef blog on June 23, 2015.][chefblog]*
+*If you have a story you’d like to share about feeling intimidated, isolated, ignored, harassed, emboldened, integrated, noticed, or encouraged, contact the author.*
 
-*If you have a story you’d like to share about feeling intimidated, isolated, ignored, harassed, emboldened, integrated, noticed, or encouraged, contact the author at the address below. You can send secure messages.*
-
-[kevinemail]: mailto:kdickerson@chef.io
+[kevinemail]: mailto:kevin.dickerson@protonmail.ch
 [chefblog]: https://www.chef.io/blog/2015/06/23/inclusion/

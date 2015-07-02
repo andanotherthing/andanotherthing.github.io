@@ -1,12 +1,13 @@
-name: “And Another Thing…”
-description: "A blog about automation and Chef and technology culture."
+# Site settings
+title: “And Another Thing…”
+email: kevin.dickerson@protonmail.ch
+description: >
+  A blog about automation and Chef and technology culture.
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://andanotherthing.github.io
-markdown: redcarpet
-highlighter: pygments
-paginate: 5
-permalink: /:title
-disqus-id: andanotherthingblog
-twitter: kevindickerson
-github: kevindickerson
-rss-feed-limit: 20
-rss-show-full: "yes"
+twitter_username: kevindickerson
+github_username: kevindickerson
+disqus_shortname: andanotherthingblog
+# Build settings
+markdown: kramdown
+permalink: :title
